@@ -1,0 +1,170 @@
+/*************************************  Tags Styles ***********************************/
+
+body{
+
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+
+}
+p{
+    margin-top: 0;
+    font-size: 0.5em;
+    line-height: 2;
+}
+h1 {
+  font-size: 5.625rem;  /* 16px= 100% so 90 px= 562.5% ///  1em = 16px so 90px= 5.625em*/
+margin: 50px auto 0;
+font-family: 'Sacramento', cursive;
+color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+color: #66BFBF;
+
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+a{
+    color:  #11999E;
+    font-size: 0.5em;
+    margin: 0 2.5%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 10px;
+  width:40%;
+  border-color: #c5c7c7;
+  margin: 100px auto;
+}
+/*************************************  Classes Styles ***********************************/
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 80px;
+  line-height: 2;
+}
+
+.middle-container {
+  width: 50%;
+   margin: 50px auto 0;
+
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 100px auto 0;
+  height: 90px;
+padding: 5px 0;
+}
+.pro {
+  text-decoration: underline;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+top: 40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-img{
+  width: 25%;
+   border-radius: 10%;
+
+
+}
+.coding{
+   float:left;
+   margin-right: 30px;
+}
+.graphic{
+  float:right;
+  margin-left: 30px;
+}
+.skill-row{
+/*  width: 80%;*/
+  margin:100px auto;
+text-align: left;
+}
+
+
+.skill-text{
+
+  font-size: 0.8em;
+}
+.BUTTON_BDK {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 13px;
+   line-height: 13px;
+   color: #FFFFFF;
+   font-family: Georgia;
+   width: 116px;
+   font-size: 16px;
+   font-weight: 200;
+   padding: 24px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto 0;
+}
+
+.BUTTON_BDK:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*************************************  Ids Styles ***********************************/
+#profile-img {
+  width: 15%;
+   border-radius: 30%;
+   margin-top: 15px;
+}
+
+#job{
+  font-weight: normal;
+}
+#footer{
+  font-size: 0.3em;
+  color: #EAF6F6;
+  margin: 20px auto;
+}
